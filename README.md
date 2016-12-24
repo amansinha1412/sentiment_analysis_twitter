@@ -41,12 +41,11 @@
 
 ##Working##
 
-Python provide us with nltk module which can be used for Natural Language Processing.Python has a set of tools which can be used to collect data, build the classifiers, label the sentiment of a document and finally plot it on the graph to show the sentiments on a visual basis. This python reuces a huge amount of workload needed to build a sentiment classifier.
+Python provide us with **nltk** module which can be used for **Natural Language Processing**.Python has a set of tools which can be used to **collect data, build the classifiers, label the sentiment of a document and finally plot it on the graph to show the sentiments on a visual basis**. This python reuces a huge amount of workload needed to build a sentiment classifier.
 
 
-In the above project the classifer used is a voted_classifier which is the combination of five classifiers.The classification of a text,document is done on the basis of confidence level of the classification done by the classifier.
+In the above project the classifer used is a **voted_classifier** which is the combination of **5** classifiers.The classification of a text,document is done on the basis of **confidence level** of the classification done by the classifier.
 Thus the classification is done on the basis of majority of kind of votes a text/document gets .The higher no of votes of a particular type a document gets it is assigned the same label.
  
 
-The classifiers used for voted classifer are naive_bayes,logisticRegression_clasifier,BernoulliNB_clasifier,MNB_classifier,SGD_classifier and SVC_classifier.
-
+The classifiers used for **voted classifer** are **naive_bayes,logisticRegression_clasifier,BernoulliNB_clasifier,MNB_classifier,SGD_classifier** .
